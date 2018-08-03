@@ -1,0 +1,110 @@
+#plastic {
+  width: 500px;
+  margin-top: 1px;
+  margin-bottom: 30px;
+  margin-right: 120px;
+  margin-left: 30px;
+  float: right;
+  text-align: justify;
+  opacity: 1;
+  background-color: rgba(96, 56, 99, 0.7); /* Fond rouge à moitié transparent */
+  /* haut | droit | bas | gauche */
+  padding: 20px 20px 80px 20px;
+  /*background-size: 60% 60%;*/
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px rgb(96, 56, 99) inset;
+  color: blanchedalmond;
+  /* background-clip: padding-box;*/
+}
+#plastic2 {
+  width: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 120px;
+  float: rileftt;
+  text-align: justify;
+  opacity: 1;
+  background-color: rgba(96, 56, 99, 0.7); /* Fond rouge à moitié transparent */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 6px rgb(96, 56, 99) inset;
+  color: blanchedalmond;
+}
+/*#image {
+  float: left;
+  
+}*/
+/*#yy{font-size : 2em;
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;}*/
+@font-face {
+  /* Définition d'une nouvelle police nommée CAC Champagne */
+  font-family: "cac_champagneregular";
+  src: url("cac_champagne-webfont.eot");
+  src: url("cac_champagne-webfont.eot?#iefix") format("embedded-opentype"),
+    url("cac_champagne-webfont.woff") format("woff"),
+    url("cac_champagne-webfont.ttf") format("truetype"),
+    url("cac_champagne-webfont.svg#cac_champagneregular") format("svg");
+}
+@font-face {
+  /* Définition d'une nouvelle police nommée CAC Champagne */
+  font-family: "cac_champagne";
+  src: url("cac_champagne.eot");
+  src: url("cac_champagne.eot?#iefix") format("embedded-opentype"),
+    url("cac_champagne.woff") format("woff"),
+    url("cac_champagne.ttf") format("truetype"),
+    url("cac_champagne.svg#cac_champagneregular") format("svg");
+}
+.gg {
+  font-family: "cac_champagne", Arial, serif;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: blink;
+  color: rgb(255, 255, 255);
+
+  font-size: xx-large;
+}
+
+.yy /* Utilisation de la police qu'on vient de définir sur les titres */
+ {
+  font-family: "cac_champagneregular", Arial, serif;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: blink;
+
+  font-size: xx-large;
+  text-decoration: underline;
+  color: rgb(115, 70, 114);
+  /* text-decoration: overline;*/
+  text-align: center;
+}
+.imageflottante {
+  float: left;
+  background-color: rgba(164, 134, 155, 0.5);
+}
+body {
+  background: url("http://www.fontenaynumerique.fr//wp-content/uploads/2015/05/url2.jpg")
+    fixed no-repeat top right; /*scroll*/
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+/*h1
+{
+    border-bottom: 3px blue outset;
+}*/
+/*h2
+{
+    text-shadow: 2px 2px 4px black;
+}*/
+h2 {
+  font-family: Comic Sans MS;
+}
+.roundedImage{
+  overflow:hidden;
+  -webkit-border-radius:100px;
+  -moz-border-radius:100px;
+  border-radius:100px;
+  width:140px;
+  height:140px;
+}

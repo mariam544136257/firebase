@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="learn how to use firebase." />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <title>firebase-forms</title>
+</head>
+
+<body>
+    <!--navbar bootstrap-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">welcome to my page</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="#">Home</a>
+                    </li>
+                    <li >
+                        <a href="#">cv</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">contact</a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-user"></span> Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-log-in"></span> Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--forms-->
+
+    <div class="col-md-6 col-sm-6 col-xs-12">
+        <div class="contact-area">
+                <div class="alert" id="alert">Your message has been sent successfully</div>
+            <h4>Contactez moi</h4>
+            
+            <form id="formulaire">
+
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="Nom*">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" id="mail" placeholder="Email*">
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" id="text" placeholder="Sujet*">
+                </div>
+
+                <div class="form-group">
+                    <textarea rows="9" class="form-control" id="msg" placeholder="Message"></textarea>
+                </div>
+
+                <input class="btn btn-success" type="submit" value="Submit">
+                
+
+            </form>
+
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
