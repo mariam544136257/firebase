@@ -1,0 +1,42 @@
+.container {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  body {
+    padding-top: 10px;
+  }
+  [class*="col-"], footer {
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+     /*grand écran*/ 
+    }
+  }
+  .btn:after {
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+}
+
+/* Icon when the collapsible content is hidden */
+.btn.collapsed:after {
+    content: "\e080";
+}
+  

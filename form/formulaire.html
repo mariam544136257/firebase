@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>formulaire</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <form id="myForm">
+
+        <span class="form_col">Sexe :</span>
+        <label><input name="sex" type="radio" value="H" />Homme</label>
+        <label><input name="sex" type="radio" value="F" />Femme</label>
+        <span class="tooltip">Vous devez sélectionnez votre sexe</span>
+        <br /><br />
+
+        <label class="form_col" for="lastName">Nom :</label>
+        <input name="lastName" id="lastName" type="text" />
+        <span class="tooltip">Un nom ne peut pas faire moins de 2 caractères</span>
+        <br /><br />
+
+        <label class="form_col" for="firstName">Prénom :</label>
+        <input name="firstName" id="firstName" type="text" />
+
+        <span class="tooltip">Un prénom ne peut pas faire moins de 2 caractères</span>
+        <br /><br />
+
+        <label class="form_col" for="age">Âge :</label>
+        <input name="age" id="age" type="text" />
+        <span class="tooltip">L'âge doit être compris entre 18 et 80</span>
+        <br /><br />
+
+
+        <label class="form_col" for="mail">mail:</label>
+        <input name="mail" id="mail" type="email" />
+        <span class="tooltip">Vous devez sélectionner votre mail</span>
+        <br /><br />
+
+        <label class="form_col" for="country">filière :</label>
+
+        <select name="filière" id="filière">
+        	<option value="none">Sélectionnez filière</option>
+        	<option value=>GII</option>
+        	<option value=>GT</option>
+        	<option value=>GEC</option>
+    	</select>
+        <span class="tooltip">Vous devez sélectionner votre filière</span>
+
+        <br /><br />
+
+        
+
+        <span class="form_col"></span>
+        <input type="submit" value="M'inscrire" /> <input type="reset" value="Réinitialiser le formulaire" />
+
+    </form>
+
+</body>
+<script src="js/main.js"></script>
+</html>

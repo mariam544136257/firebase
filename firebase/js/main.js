@@ -27,4 +27,9 @@ var config = {
         enregistrer()
     })
     document.querySelector('.alert').style.display = 'none';
-    
+    //acceder à la console
+    //ajouter un projet
+    //ajouter fire base à votre app web
+    //developper database
+    //creer une base de données en mode test 
+    //regles false
